@@ -18,3 +18,13 @@
     npm install --save react-router-dom@6
 
 ```
+
+# Tipos de routers
+
+- Browser router: ``` /slug ```
+- Hash Router: ``` /#/slug ```
+- Memory router: ¿Tener fe?
+
+# BrewserRouter vs. HashRouter
+
+- El backend no se da ni cuenta xd
