@@ -4,7 +4,7 @@ function ProfilePage() {
 
     return(
 
-        <p>ProfilePage</p>
+        <h1>ProfilePage</h1>
 
     )
     

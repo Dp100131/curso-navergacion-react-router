@@ -13,11 +13,7 @@
 
 # Instalación de React Router DOM 6
 
-```
-
-    npm install --save react-router-dom@6
-
-```
+``` npm install --save react-router-dom@6 ```
 
 # Tipos de routers
 
@@ -28,3 +24,13 @@
 # BrewserRouter vs. HashRouter
 
 - El backend no se da ni cuenta xd
+
+# Link vs NavLink
+
+Al navLink se le permiten poner funciones como parametros.
+
+# useParams: rutas dinámicas
+
+slug: mantener el componente igual y define su comportamiento dependiendo la url.
+
+# useNavigate: Historial de navegación
