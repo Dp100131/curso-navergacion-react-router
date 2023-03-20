@@ -33,4 +33,10 @@ Al navLink se le permiten poner funciones como parametros.
 
 slug: mantener el componente igual y define su comportamiento dependiendo la url.
 
+## useParams
+
+- Ayuda a utilizar las variables en las rutas dinámicas.
+
 # useNavigate: Historial de navegación
+
+Navegar sin debender de enlaces de HTML, sino con código JavaScript.

@@ -14,7 +14,7 @@ function BlogPage() {
 
             {blogData.map( post => (
 
-                <BlogLink post={post} />
+                <BlogLink key={post.slug} post={post} />
 
             ))}
 
@@ -30,7 +30,7 @@ function BlogLink({ post }) {
 
     return(
         <li>
-            <Link key={post.slug} to={`/blog/${post.slug}`}>{post.title}</Link>
+            <Link to={`/blog/${post.slug}`}>{post.title}</Link>
         </li>
     );
     
